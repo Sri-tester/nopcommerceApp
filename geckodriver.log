@@ -1,0 +1,27 @@
+1627256771586	geckodriver	INFO	Listening on 127.0.0.1:53396
+1627256774687	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Srinivas\\AppData\\Local\\Temp\\rust_mozprofileUibu2O"
+1627256775650	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Srinivas\\AppData\\Local\\Temp\\rust_mozprofileUibu2O\\search.json.mozlz4", (void 0)))
+1627256778843	Marionette	INFO	Listening on port 53404
+1627256778956	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627256787380	Marionette	INFO	Stopped listening on port 53404
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627256788064	geckodriver	INFO	Listening on 127.0.0.1:63851
+1627256791166	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Srinivas\\AppData\\Local\\Temp\\rust_mozprofile3hLMaH"
+1627256791655	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Srinivas\\AppData\\Local\\Temp\\rust_mozprofile3hLMaH\\search.json.mozlz4", (void 0)))
+1627256794246	Marionette	INFO	Listening on port 63859
+1627256794405	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627256810882	Marionette	INFO	Stopped listening on port 63859
+[Parent 13396, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
